@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Comment Form</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin:0;
+        }
+          
+
+       body {
+  background-color: #e5e5e5;
+}
+     .comment-info {
+       width: 290px;
+       height: 317px;
+       background-color: white;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+      #first{
+          padding-right:30px;
+          padding-left:30px;
+          margin: 15px 90px 20px 0px;
+
+      }
+    textarea{
+        margin: 15px 0px 20px 0px;
+    }
+    
+
+    .btn{
+        background: linear-gradient(#49708f, #293f50);
+        border: 0;
+        color: #fff;
+        cursor: pointer;
+        font-weight: bold;
+        
+        padding:8px 16px;
+        
+    }
+    
+    
+    #checkbox{
+        float: left;
+    }
+    div {
+        margin: 15px 0px 20px 0px;
+    }
+
+    </style>
+   
+  </head>
+
+  <body>
+      <form>
+          <fieldset class="comment-info">
+              
+                  Username 
+                   <input id="first" type="text" name="username" required>
+                  Comment
+                  <textarea rows="4" cols="50" name="comment" required></textarea>
+                  <input id="checkbox" type="checkbox" name="remember"> Make my comment private
+                  <div><input class="btn" type="submit" name="submit" value="Submit"></div>
+              
+          </fieldset>
+          
+      </form>
+    
+  </body>
+</html>
