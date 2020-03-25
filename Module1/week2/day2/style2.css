@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding:0;
+    
+}
+
+.header{
+  margin-left:267px;
+  width: 78%;
+  height: 100px;
+  top:50px;
+  position:absolute;
+
+}
+table {
+    border-collapse: collapse;
+    width: 78%;
+    height: 80vh;
+    float: right;
+    margin-right: 50px;
+    margin-top: -660px;
+  }
+  tr:nth-child(even) {
+    background-color: #E8E8E8;
+    
+  }
+  td {
+    font-weight: 100;
+    font-family: 'Overpass', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+  }
+  h6{
+      display: inline;
+      padding: 4px 15px;
+      background-color:  #1a75ff;
+      color:white;
+      border-radius: 3px;
+      font-family: 'Overpass', sans-serif;
+      margin-right: 15px;
+
+
+  }
+  th{
+    font-weight: 100;
+    font-family: 'Overpass', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+  }
+  th:last-child{
+      padding-right:140px;
+  }
+  
+  input{
+    margin-right: 15px;
+  }
+  .company{
+      color:#1a75ff;
+  }
+  .circle{
+    color:#0EDD4D; 
+    font-size: 10px; 
+    margin-right:15px;
+  }
+  .elipsis{
+    margin-left:100px
+  }
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+      
+  }
+  .side-menu{
+    width: 150px;
+    height: 700px;
+    padding: 50px;
+    
+  }
+  section>nav>ul>li{
+      padding: 10px 30px;
+      border-radius: 3px;
+      margin-top: 10px;
+      
+  }
+  .icon{
+      margin-right: 20px;
+      color:#989898;
+  }
+  a{
+    text-decoration: none;
+    color: #333333;
+  }
+  section>nav>ul>li:hover {
+    background-color: #C6CBD4;
+    padding: 10px 30px;
+    border-radius: 3px;
+    opacity: 0.5;
+
+  }
+  h4{
+      text-align: center;
+  }
+  p{
+      float: left;
+      margin-top: 50px;
+      font-size:30px
+  }
+  .container{
+      display: inline;
+      float:right;
+      margin-top: 50px;
+      margin-left: 15px;
+  }
+  .Acontainer{
+      padding:10px 20px;
+      margin-top:20px; 
+      border-radius: 3px;
+      font-family: 'Overpass', sans-serif;
+  }
+  div:last-child{
+    border: 1px solid #C6CBD4;
+    background-color: white;
+    color: black;
+  }
+  div:nth-child(2){
+    background-color: #4B74FF;
+    border: 1px solid#4B74FF;
+  }
+  .New-Client{
+      color:white;
+  }
+

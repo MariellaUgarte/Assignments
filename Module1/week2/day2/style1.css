@@ -1,0 +1,55 @@
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 80%;
+    height:70vh;
+    margin-top: 60px;
+    
+
+  }
+ 
+  
+  td {
+    border-bottom: 1px solid #cecfd5;
+    padding: 10px 15px;
+    font-weight: 100;
+    font-family: 'Overpass', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 300;
+    text-align: center;
+  }
+  th{
+    border-bottom: 1px solid black;
+    padding: 10px 15px;
+    text-align: center;
+    font-style: lighter;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 300;
+    font-family: 'Overpass', sans-serif;
+   
+  }
+  input{
+      margin-right: 30px;
+      border-radius: 6px;
+      -webkit-transform: scale(1.7);
+  }
+      
+  .company{
+      text-align:left;
+  }
+  th:first-child{
+      text-align: left;
+  }
+  
+
+   input[type="checkbox"]:checked{
+      background: #3d404e;
+      border: #7f83a2 1px solid;
+   }
+ 
+   tr:last-child > td{
+       border-bottom:none ;
+   }
