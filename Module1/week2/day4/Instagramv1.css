@@ -1,0 +1,40 @@
+html body {
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    height: 100%;
+    display: grid;
+    grid-template-columns: [first] 220px [main-start] auto [main-end] 220px [end];
+    grid-template-rows: [row1-start] 150px [row-start] auto [row-end];
+  }
+  
+  .top-bar {
+    position: relative;
+    grid-column: 2 / -2;
+    grid-row-start: 1;
+    padding: 20px;
+  }
+  
+  #logo {
+    height: 30px;
+    position: absolute;
+    bottom: 20px;
+  }
+  
+  .container {
+    grid-column: 2;
+    grid-row-start: 2;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, min-content));
+    grid-template-rows: repeat(8, min-content);
+    justify-items: center;
+    grid-gap: 20px;
+  }
+  
+  .image {
+    width: 300px;
+    align-self: center;
+  }
+  
