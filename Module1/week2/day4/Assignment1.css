@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding:0;
+    height: 100vh;
+}
+.Container{
+    background-color: #544E4E;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    line-height: 35px;
+    color: #A0A2A6;
+}

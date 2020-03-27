@@ -1,0 +1,72 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+   height: 100%;
+}
+.top-bar{
+    display:flex;
+    padding:20px;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+img{
+    height: 40px;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    
+    
+}
+nav >a{
+    font-family: 'Nunito', sans-serif;
+    font-size:15px;
+    padding-left: 20px;
+    
+}
+
+.links{
+    display: flex;
+    align-items: center;
+}
+.Sing-up{
+    font-family: 'Nunito', sans-serif;
+    font-size:12px;
+    padding: 8px 15px;
+    background-color: white;
+    color: black;
+    margin-left:20px
+}
+.search {
+    position: relative;
+
+}
+#search-icon{
+    position:absolute;
+    left:10px;
+   
+}
+.icon{
+    min-width: 40px;
+}
+.search{
+    width: 200px;
+    height:50px;
+    display: flex;
+    align-items: center;  
+}
+input{ 
+    box-sizing: border-box;
+    width: 100%;
+    padding-left:40px;
+    border-radius: 10px;
+    border:none;
+    height: 30px;
+}

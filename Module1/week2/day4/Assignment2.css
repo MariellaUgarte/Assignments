@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding:0;
+    height: 100vh;
+}
+.Container{
+    display:flex;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    align-items:center;
+    justify-content:space-between;
+
+}
+.Box{
+    display:flex;
+    flex-direction: column;
+    
+    
+    
+}
+.description{
+   
+    font-family: 'Overpass', sans-serif;
+    width: 70%;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7A7A7A;
+    
+    
+}
+h2{
+    font-family: 'Overpass', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 38px;
+    color: #0AD9C6;
+
+}
+.title{
+    font-family: 'Overpass', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 34px;
+    width: 50%;
+    color: #000000;
+}
