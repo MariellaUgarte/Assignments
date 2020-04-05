@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Menu</title>
+        <link href="style.css" type="text/css" rel="stylesheet" />
+        <style>
+            body,html{
+    display: flex;
+    justify-content: center;
+}
+.item-menu {
+    color: #595959;
+    display: block;
+    font-family: Arial, sans-serif; 
+    padding: 20px 100px;
+    text-decoration: none;
+    width: 30%;
+    border-bottom: 1px solid #EBEBEB;
+    text-align: center;  
+    margin-bottom: 8px;
+    
+}
+.item {
+    color: #595959;
+    display: block;
+    font-family: Arial, sans-serif; 
+    padding: 20px 100px;
+    text-decoration: none;
+    width: 30%;        
+}
+.main-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding:0;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);   
+    
+}
+.main-navigation li {
+    background: #ffffff;
+    float: left;
+    position: relative; 
+}
+ul.dropdown-menu {
+    background: #fff;
+    display: none;      
+    font-size: 13px;
+    width: 100%;    
+}
+
+ul.dropdown-menu li {
+    display: block;
+    float: none;
+    
+}
+.main-navigation ul li:hover > ul.dropdown-menu {
+    display: block; 
+    opacity: 1; 
+    animation: opacity 700ms ease-in-out normal;
+}
+ 
+
+ @keyframes opacity { 
+     from { opacity:0; } 
+     to { opacity: 1; } 
+ }
+        </style>
+    </head>
+    <body>
+        <nav class="main-navigation">
+            <ul>
+                <li><a class=" item-menu" href="#">Menu</a></li>
+                <li>
+                    <a class=" item-menu" href="#">Menu</a>
+                    <ul class=dropdown-menu>
+                        <li><a class=" item" href="#">Option 1</a></li>
+                        <li><a class=" item" href="#">Option 2</a></li>
+                        <li><a class=" item" href="#">Option 3</a></li>
+                        <li><a class=" item" href="#">Option 4</a></li>
+                        <li><a class=" item" href="#">Option 5</a></li>
+                    </ul>
+                </li>
+                
+                <li><a class=" item-menu" href="#">Menu</a></li>
+            </ul>
+        </nav>
+    </body>    
+</html>
